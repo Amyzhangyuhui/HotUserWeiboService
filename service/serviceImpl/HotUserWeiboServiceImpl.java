@@ -150,11 +150,11 @@ public class HotUserWeiboServiceImpl implements HotUserWeiboService{
 			public int compare(Entry<Weibo, Double> o1, Entry<Weibo, Double> o2) {
 				// TODO Auto-generated method stub
 				if((o2.getValue()-o1.getValue())>0)
-					return 1;
+					return -1;
 				if(o2.getValue()==o1.getValue())
 					return 0;
 				else
-					return -1;
+					return 1;
 			}
 		});
 		return (ArrayList<Entry<Weibo, Double>>) entries;

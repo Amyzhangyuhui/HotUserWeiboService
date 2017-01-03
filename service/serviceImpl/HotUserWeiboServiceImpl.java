@@ -1,4 +1,4 @@
-package cn.edu.bjtu.weibo.immplement;
+package cn.edu.bjtu.weibo.HotUserWeiboService.service.serviceImpl ;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
